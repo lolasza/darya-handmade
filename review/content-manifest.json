@@ -1,0 +1,632 @@
+{
+  "reference_file": "src_.vercel_output_static_index (3).html",
+  "reference_sha256": "1ff15446c9a8a0c33ad53e52c221a6c82277df0a1a034dd1b1c0442d268982e9",
+  "github_main_commit": "d0658ecd4b6d9b8413a2bd1cf16cfab45efa49b8",
+  "catalogue_count": 21,
+  "reference_product_count": 15,
+  "additional_preserved_product_ids": [
+    "p1",
+    "p2",
+    "p3",
+    "p4",
+    "p5",
+    "p8"
+  ],
+  "embedded_reference_image_count": 23,
+  "reference_product_photo_count": 18,
+  "products": [
+    {
+      "id": "k1",
+      "cat": "Картины",
+      "title": "Счастливый утёнок",
+      "price": 25000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "Ø 20 см",
+      "materials": "Акрил, холст",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Утёнок в костюме танцующего льва на фоне китайских пагод.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 219890,
+          "sha256": "a8b03eab58df24b6b7269677482f84cbaf79a8230ba91d159a4396cd0b965403"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "cat": "Картины",
+      "title": "Хранитель жемчужины",
+      "price": 25000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "Ø 20 см",
+      "materials": "Акрил, холст",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Лев-хранитель с жемчужиной среди облаков.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 208495,
+          "sha256": "4a08ceddef29ed36adccbe596f79e3cfd83d1b8c45cec42592af824b44aefff8"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "cat": "Картины",
+      "title": "Три Дарумы",
+      "price": 25000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "Ø 20 см",
+      "materials": "Акрил, холст",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Три куклы-дарумы с иероглифами «удача», «победа» и «здоровье».",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 206153,
+          "sha256": "fa3cca41b547760dd5297d0f4a01cb1fd691e31f6df6c473788a72dce7414f40"
+        }
+      ]
+    },
+    {
+      "id": "k4",
+      "cat": "Картины",
+      "title": "Заяц и Они",
+      "price": 25000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "Ø 20 см",
+      "materials": "Акрил, холст",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Заяц, маска Они и волны на фоне ворот тории.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 213032,
+          "sha256": "29bebd78d96292c3987b28f8278ca0d7d81888cdd60c549ea3cd35081f849437"
+        }
+      ]
+    },
+    {
+      "id": "k5",
+      "cat": "Картины",
+      "title": "Тихое путешествие",
+      "price": 25000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "Ø 20 см",
+      "materials": "Акрил, холст",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Лягушка на карпе с фонарём; надпись на картине — «Тихое путешествие».",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 179071,
+          "sha256": "28793186ecd0f2053806cfb23ae2de29efd9cb6dfd2ae8106fa21638c8119504"
+        }
+      ]
+    },
+    {
+      "id": "k6",
+      "cat": "Картины",
+      "title": "Эбису и черепаха",
+      "price": 25000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "Ø 20 см",
+      "materials": "Акрил, холст",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Бог удачи Эбису с рыбой и удочкой верхом на морской черепахе среди волн.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 188609,
+          "sha256": "63065334cdef06623dc33ee7d77a505ec3f2343a45677155517e4b845e1b39d6"
+        }
+      ]
+    },
+    {
+      "id": "k7",
+      "cat": "Картины",
+      "title": "Хранитель дома",
+      "price": 25000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "20 × 30 см",
+      "materials": "Акрил, холст",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Кот в кимоно с драконами; на табличке иероглифы 家内安全 — пожелание мира и безопасности в доме.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 98646,
+          "sha256": "5d0edf29c471885aaa4747536d857e7f3be6890e58d374868270bb6642e72403"
+        }
+      ]
+    },
+    {
+      "id": "f1",
+      "cat": "Гипсовые фигурки",
+      "title": "Курочка в платочке",
+      "price": 5000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "20 × 20 см",
+      "materials": "Гипс, акрил, принт",
+      "care": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+      "desc": "Гипсовая рамка с объёмным декором в золотой патине, расписанная акрилом. Внутри — принт: курочка в цветастом платочке.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 197945,
+          "sha256": "9cf8049f39d340382b5c3cf92a560a7bd61e1cc3e6bfcb70b70cfbd09f50e7b6"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "cat": "Гипсовые фигурки",
+      "title": "Козочка в оранжевом платке",
+      "price": 5000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "20 × 20 см",
+      "materials": "Гипс, акрил, принт",
+      "care": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+      "desc": "Гипсовая рамка с объёмным декором: золото и бирюзовая патина, роспись акрилом. Внутри — принт: козочка в оранжевом платке.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 200709,
+          "sha256": "a4471d9fbf22cbaf2f3efc91b34828af1ee5b1c65868279813b91895ce2c05fc"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "cat": "Гипсовые фигурки",
+      "title": "Цыплёнок-аристократ",
+      "price": 5000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "20 × 20 см",
+      "materials": "Гипс, акрил, принт",
+      "care": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+      "desc": "Гипсовая рамка с объёмным декором: малиновый цвет с золотом, роспись акрилом. Внутри — принт: цыплёнок в парике с бокалом вина.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 186973,
+          "sha256": "6a7137420136b5e4702b097122f8b1f39dc58d841d95c963cb447d0b3cdea81f"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "cat": "Гипсовые фигурки",
+      "title": "Куриная банда",
+      "price": 5000,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "20 × 20 см",
+      "materials": "Гипс, акрил, принт",
+      "care": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+      "desc": "Гипсовая рамка с объёмным декором: изумрудно-зелёный цвет с золотом, роспись акрилом. Внутри — принт: три курицы в круглых очках.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 188063,
+          "sha256": "7a42936b30428a3876faed4af10395f41443b3db2cec0f029f490f13f047ea1d"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "cat": "TOON ART",
+      "title": "Панно «Луг» (пример)",
+      "price": 4800,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "30 × 30 см",
+      "materials": "Гипс, акрил",
+      "care": "Вешать вдали от батарей, протирать сухой тканью.",
+      "desc": "Демонстрационное описание панно.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1112,
+          "sha256": "b602715dffa7b9e49b2fb1847169424ae4b773a8e679654d1a3e6bb2a69c34d0"
+        },
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1111,
+          "sha256": "73f5195e9354927ac33c04c7ce7af8adde10e13dd24a1eda7915924483bb2261"
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "cat": "TOON ART",
+      "title": "Магнит-цветок (пример)",
+      "price": 900,
+      "status": "stock",
+      "stockQty": 5,
+      "unique": false,
+      "lead": "",
+      "size": "6 см",
+      "materials": "Гипс, акрил, магнит",
+      "care": "Беречь от влаги.",
+      "desc": "Пример небольшого изделия, несколько штук.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1111,
+          "sha256": "3f89106a42927fb8bc51d289f55a6ae988c4f7486b8ccdbeb0f6195461a06698"
+        },
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1109,
+          "sha256": "0aac8b73a826b6f70ba700fa0389c5d407aa5611afb0713730977efc12e1fd68"
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "cat": "Подарочные наборы",
+      "title": "Набор «Неразлучные»",
+      "price": 2500,
+      "status": "stock",
+      "unique": false,
+      "lead": "",
+      "size": "[размер коробки: укажите]",
+      "materials": "Гипс, акрил, ленты, бубенчик золотой 10 мм",
+      "care": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+      "desc": "Два гипсовых голубя-неразлучника: одного оставьте себе, другого подарите тому, кто вам дорог. В наборе открытка «Неразлучные», красные ленты и золотые бубенчики. Упаковано в подарочную коробку.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 134452,
+          "sha256": "acd525c3494e80c925a574ff96e417e8e991badb4e77d5e8507d7236d4076e03"
+        },
+        {
+          "mime": "image/jpeg",
+          "bytes": 128467,
+          "sha256": "be0e19a88a06b6b0b767d88f2e7d3969e58225337c291f96f904c723272555f3"
+        },
+        {
+          "mime": "image/jpeg",
+          "bytes": 122633,
+          "sha256": "6210abb74a2998b5e223a5be32ec22d5fdbfdfb8bead17578b47ce72cbda463d"
+        },
+        {
+          "mime": "image/jpeg",
+          "bytes": 127033,
+          "sha256": "3c31600928574a312b855d271f61b14cff5801752d683c63018737f1ba27beae"
+        },
+        {
+          "mime": "image/jpeg",
+          "bytes": 149763,
+          "sha256": "c25990103d698728677cd1b4d1638558b4999dedc4ed966fce5980774350eb62"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "cat": "Подарочные наборы",
+      "title": "Набор «Ангелы»",
+      "price": 3500,
+      "status": "stock",
+      "unique": false,
+      "lead": "",
+      "size": "[размер коробки: укажите]",
+      "materials": "Гипс, акрил, ленты",
+      "care": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+      "desc": "Три гипсовых ангела с красными сердцами и золотой росписью, на красных лентах для подвешивания. Упаковано в подарочную коробку с окошком.",
+      "source": "attached-reference",
+      "images": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 119170,
+          "sha256": "866471a85ad075660a976ca5612a07cf50b21afdd0ff022b82fc1842ed2552db"
+        },
+        {
+          "mime": "image/jpeg",
+          "bytes": 94644,
+          "sha256": "05ff2a7fa7872b07c3dad73bcff14a87a5245e857a31c857f2ca966c6b1be121"
+        }
+      ]
+    },
+    {
+      "id": "p1",
+      "cat": "Картины",
+      "title": "Утро у окна (пример)",
+      "price": 6500,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "40 × 50 см",
+      "materials": "Акрил, холст на подрамнике",
+      "care": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+      "desc": "Демонстрационное описание картины. Замените своим текстом.",
+      "source": "previous-project",
+      "images": [
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1031,
+          "sha256": "8e1ff2451b01248c1199ec84704191e040ddea0b1cce307fce4cc689529f643e"
+        },
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1112,
+          "sha256": "3b2465672e5e4b2fcd144c535b3e3073b058cb385ae26dd29f1b951cc41e5156"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "cat": "Картины",
+      "title": "Оливковая ветвь (пример)",
+      "price": 9800,
+      "status": "sold",
+      "unique": true,
+      "lead": "",
+      "size": "50 × 70 см",
+      "materials": "Масло, холст",
+      "care": "Беречь от солнца и влаги.",
+      "desc": "Пример проданной работы — кнопка покупки недоступна.",
+      "source": "previous-project",
+      "images": [
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1033,
+          "sha256": "29bd7d9f6db006935158db3e7586626e1697576c87a2da4acda83eb6932a9436"
+        },
+        {
+          "mime": "image/svg+xml",
+          "bytes": 1187,
+          "sha256": "74d92aab382f7e595f044e50f42a3a98cc6c8e6e8bd4830c1ad2867f2419dd1d"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "cat": "Картины",
+      "title": "Картина на заказ (пример)",
+      "price": 8000,
+      "status": "order",
+      "unique": false,
+      "lead": "[срок: укажите] дней",
+      "size": "по договорённости",
+      "materials": "Акрил, холст",
+      "care": "Беречь от солнца и влаги.",
+      "desc": "Пример работы на заказ. Цена — ориентир.",
+      "source": "previous-project",
+      "images": [
+        {
+          "mime": "image/svg+xml",
+          "bytes": 956,
+          "sha256": "78a0181bd12231cd52466daf141168272cd6cc2e444ca25442b4a2e17e7bd09a"
+        },
+        {
+          "mime": "image/svg+xml",
+          "bytes": 963,
+          "sha256": "39a46416042d85ddf1542392f2b7c838bcf216db68bd5c6599d415eadaad2a72"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "cat": "Гипсовые фигурки",
+      "title": "Зайчик с ромашкой (пример)",
+      "price": 2200,
+      "status": "stock",
+      "unique": true,
+      "lead": "",
+      "size": "Высота 12 см",
+      "materials": "Гипс, акриловая роспись, защитный лак",
+      "care": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+      "desc": "Демонстрационное описание гипсовой фигурки.",
+      "source": "previous-project",
+      "images": []
+    },
+    {
+      "id": "p5",
+      "cat": "Гипсовые фигурки",
+      "title": "Птичка-свистулька (пример)",
+      "price": 1800,
+      "status": "order",
+      "unique": false,
+      "lead": "[срок: укажите] дней",
+      "size": "Высота 9 см",
+      "materials": "Гипс, акрил, лак",
+      "care": "Беречь от падений и влаги.",
+      "desc": "Пример изделия на заказ — каждая роспись немного отличается.",
+      "source": "previous-project",
+      "images": []
+    },
+    {
+      "id": "p8",
+      "cat": "Подарочные наборы",
+      "title": "Набор «Уютный дом» (пример)",
+      "price": 3500,
+      "status": "order",
+      "unique": false,
+      "lead": "[срок: укажите] дней",
+      "size": "Коробка 20 × 15 см",
+      "materials": "Гипс, акрил, упаковка",
+      "care": "Хрупко, беречь от влаги.",
+      "desc": "Пример подарочного набора из нескольких изделий.",
+      "source": "previous-project",
+      "images": []
+    }
+  ],
+  "reference_binary_images": [
+    {
+      "mime": "image/webp",
+      "bytes": 3746,
+      "sha256": "d649a0dc64fc452068e60da881d1c6f8a6a71432b5ffd8de5db7aecd6da33f26"
+    },
+    {
+      "mime": "image/png",
+      "bytes": 65766,
+      "sha256": "6f76967ababee6b5cb274c058cb8e8e6f0ac72e5f30cd9d8ebbf786d55b32b8b"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 58369,
+      "sha256": "2b91b8f355bd2d7a04d04f9de6245ff26256de171ebdcd11cba8e27261725005"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 79495,
+      "sha256": "9d0770b40cd3d594e6a00157cc8d9ee044cd26f0275aff322bab0ddc945a5037"
+    },
+    {
+      "mime": "image/webp",
+      "bytes": 63092,
+      "sha256": "7c897db1500b4289809a0b3341199a0ffaf29ad3f5d7903d3fd366abd5cfa9f4"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 219890,
+      "sha256": "a8b03eab58df24b6b7269677482f84cbaf79a8230ba91d159a4396cd0b965403"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 208495,
+      "sha256": "4a08ceddef29ed36adccbe596f79e3cfd83d1b8c45cec42592af824b44aefff8"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 206153,
+      "sha256": "fa3cca41b547760dd5297d0f4a01cb1fd691e31f6df6c473788a72dce7414f40"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 213032,
+      "sha256": "29bebd78d96292c3987b28f8278ca0d7d81888cdd60c549ea3cd35081f849437"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 179071,
+      "sha256": "28793186ecd0f2053806cfb23ae2de29efd9cb6dfd2ae8106fa21638c8119504"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 188609,
+      "sha256": "63065334cdef06623dc33ee7d77a505ec3f2343a45677155517e4b845e1b39d6"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 98646,
+      "sha256": "5d0edf29c471885aaa4747536d857e7f3be6890e58d374868270bb6642e72403"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 197945,
+      "sha256": "9cf8049f39d340382b5c3cf92a560a7bd61e1cc3e6bfcb70b70cfbd09f50e7b6"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 200709,
+      "sha256": "a4471d9fbf22cbaf2f3efc91b34828af1ee5b1c65868279813b91895ce2c05fc"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 186973,
+      "sha256": "6a7137420136b5e4702b097122f8b1f39dc58d841d95c963cb447d0b3cdea81f"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 188063,
+      "sha256": "7a42936b30428a3876faed4af10395f41443b3db2cec0f029f490f13f047ea1d"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 134452,
+      "sha256": "acd525c3494e80c925a574ff96e417e8e991badb4e77d5e8507d7236d4076e03"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 128467,
+      "sha256": "be0e19a88a06b6b0b767d88f2e7d3969e58225337c291f96f904c723272555f3"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 122633,
+      "sha256": "6210abb74a2998b5e223a5be32ec22d5fdbfdfb8bead17578b47ce72cbda463d"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 127033,
+      "sha256": "3c31600928574a312b855d271f61b14cff5801752d683c63018737f1ba27beae"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 149763,
+      "sha256": "c25990103d698728677cd1b4d1638558b4999dedc4ed966fce5980774350eb62"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 119170,
+      "sha256": "866471a85ad075660a976ca5612a07cf50b21afdd0ff022b82fc1842ed2552db"
+    },
+    {
+      "mime": "image/jpeg",
+      "bytes": 94644,
+      "sha256": "05ff2a7fa7872b07c3dad73bcff14a87a5245e857a31c857f2ca966c6b1be121"
+    }
+  ],
+  "archived_previous_illustrations": [
+    {
+      "path": "assets/legacy/p6-1.svg",
+      "bytes": 1182,
+      "sha256": "6f2ba97839bab446a7155e63b7d8907eb318a2e4425ab39ff7ab0ccd847d3100"
+    },
+    {
+      "path": "assets/legacy/p6-2.svg",
+      "bytes": 1107,
+      "sha256": "7df2014f292a2aaec2e45bb9108bc050bdd3ba356dfe2755241cca3a575237f9"
+    },
+    {
+      "path": "assets/legacy/p7-1.svg",
+      "bytes": 1033,
+      "sha256": "23e67090104f6233acd8b88ffd3b58d183bbc60d08808c3228b1ce13e0f5fcbc"
+    },
+    {
+      "path": "assets/legacy/p7-2.svg",
+      "bytes": 1033,
+      "sha256": "5d1129e434a9543d70058f2416a2829af101ea676fd7383f3048109b4b486cc7"
+    }
+  ]
+}
