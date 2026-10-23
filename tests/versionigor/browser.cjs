@@ -57,7 +57,11 @@ const waitFor = async (page, fn) => page.waitForFunction(fn);
       await page.screenshot({
         path: path.join(screenshots, `hero-${width}.png`),
       });
-      await page.locator("#works").scrollIntoViewIfNeeded();
+      await page
+        .locator("#works")
+        .evaluate((node) =>
+          node.scrollIntoView({ block: "start", behavior: "instant" }),
+        );
       await page.screenshot({
         path: path.join(screenshots, `gallery-${width}.png`),
       });
