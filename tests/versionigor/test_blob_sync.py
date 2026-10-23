@@ -11,6 +11,37 @@ spec.loader.exec_module(sync)
 
 
 class BlobSyncTests(unittest.TestCase):
+    def test_dotenv_loads_only_the_blob_key_without_executing_shell(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            for value in ['test-only-blob-value', '"test-only-blob-value"', "'test-only-blob-value' # note"]:
+                (root / '.env.local').write_text('OTHER_KEY=ignored\nexport BLOB_READ_WRITE_TOKEN=' + value + '\n')
+                with patch.object(sync, 'ROOT', root), patch.dict(sync.os.environ, {}, clear=True):
+                    self.assertEqual(sync.load_blob_token(), 'test-only-blob-value')
+                    self.assertNotIn('OTHER_KEY', sync.os.environ)
+            (root / '.env.local').write_text('BLOB_READ_WRITE_TOKEN=$(touch-owned)\n')
+            with patch.object(sync, 'ROOT', root), patch.dict(sync.os.environ, {}, clear=True):
+                self.assertEqual(sync.load_blob_token(), '$(touch-owned)')
+            self.assertEqual(list(root.iterdir()), [root / '.env.local'])
+
+    def test_protected_binding_wins_and_empty_local_file_is_not_a_credential(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / '.env.local').write_text('BLOB_READ_WRITE_TOKEN=""\n')
+            with patch.object(sync, 'ROOT', root), patch.dict(sync.os.environ, {}, clear=True):
+                self.assertIsNone(sync.load_blob_token())
+            with patch.object(sync, 'ROOT', root), patch.dict(sync.os.environ, {'BLOB_READ_WRITE_TOKEN': 'bound-test-value'}, clear=True):
+                self.assertEqual(sync.load_blob_token(), 'bound-test-value')
+
+    def test_malformed_local_entry_does_not_disclose_its_value(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / '.env.local').write_text('BLOB_READ_WRITE_TOKEN="test-only-private-value\n')
+            with patch.object(sync, 'ROOT', root), patch.dict(sync.os.environ, {}, clear=True):
+                with self.assertRaises(ValueError) as error:
+                    sync.load_blob_token()
+                self.assertNotIn('test-only-private-value', str(error.exception))
+
     def test_paths_reject_escape(self):
         for name in ['../secret.png', '/image.png', 'folder/%2e%2e/image.png', 'folder\\image.png']:
             with self.assertRaises(ValueError):

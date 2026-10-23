@@ -17,6 +17,39 @@ MEDIA_TYPES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".avif", ".ico"
 FONT_TYPES = {".ttf", ".otf", ".woff", ".woff2"}
 
 
+def load_blob_token():
+    """Prefer the protected environment binding, then the local ignored file.
+
+    Read only the required key. Never execute/source a dotenv file, expand shell
+    expressions, or log a value. Local values stay out of the manifest and Git.
+    """
+    token = os.environ.get("BLOB_READ_WRITE_TOKEN")
+    if token:
+        return token
+    dotenv = ROOT / ".env.local"
+    if not dotenv.is_file():
+        return None
+    for line in dotenv.read_text(encoding="utf-8-sig").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        key, separator, value = line.removeprefix("export ").partition("=")
+        if not separator or key.strip() != "BLOB_READ_WRITE_TOKEN":
+            continue
+        value = value.strip()
+        if value.startswith(("'", '"')):
+            match = re.fullmatch(r'''(["'])(.*?)\1(?:\s+#.*)?''', value)
+            if not match:
+                raise ValueError("Malformed BLOB_READ_WRITE_TOKEN entry in .env.local")
+            value = match[2]
+        else:
+            value = re.split(r"\s+#", value, maxsplit=1)[0].strip()
+        if any(character.isspace() for character in value) or "\x00" in value:
+            raise ValueError("Invalid whitespace in the Blob token entry; value was not displayed")
+        token = value or None
+    return token
+
+
 def safe_path(pathname):
     path = PurePosixPath(urllib.parse.unquote(pathname))
     if path.is_absolute() or not path.parts or any(p in {".", ".."} for p in path.parts) or "\\" in pathname:
@@ -119,9 +152,9 @@ def main():
         value = json.loads(args.manifest.read_text())
         items = value.get("blobs", value.get("files", [])) if isinstance(value, dict) else value
     else:
-        token = os.environ.get("BLOB_READ_WRITE_TOKEN")
+        token = load_blob_token()
         if not token:
-            raise ValueError("BLOB_READ_WRITE_TOKEN is not available in the running environment; use the protected environment settings")
+            raise ValueError("BLOB_READ_WRITE_TOKEN is missing: fill the protected environment setting or the ignored .env.local file in the project root")
         items = list(list_blobs(token))
     sync(items)
 

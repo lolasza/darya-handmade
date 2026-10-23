@@ -6,3 +6,5 @@ review/
 docs/
 scripts/
 tests/
+.env
+.env.*
