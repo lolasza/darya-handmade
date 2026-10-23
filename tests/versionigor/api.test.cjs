@@ -33,7 +33,7 @@ test("direct work page has server-rendered localized title, canonical, noindex a
   assert.match(page.html, /<title>The Hare and the Oni/);
   assert.match(
     page.html,
-    /href="https:\/\/darya-handmade.vercel.app\/versionigor\/work\/hare-and-oni"/,
+    /href="https:\/\/www.daryahandmade.shop\/versionigor\/work\/hare-and-oni"/,
   );
   assert.equal(page.headers["X-Robots-Tag"], "noindex, follow");
   assert.equal(invoke("unknown-work").status, 404);
@@ -90,7 +90,7 @@ const body = (overrides = {}) => ({
   workId: "k4",
   language: "ru",
   sourceURL:
-    "https://darya-handmade.vercel.app/versionigor/contact?type=purchase&work=k4",
+    "https://www.daryahandmade.shop/versionigor/contact?type=purchase&work=k4",
   website: "",
   ...overrides,
 });
@@ -108,7 +108,7 @@ async function invoke(
     method,
     body: data,
     headers: {
-      host: "darya-handmade.vercel.app",
+      host: "www.daryahandmade.shop",
       "content-type": "application/json",
       "idempotency-key": key,
       "x-forwarded-for": ip,

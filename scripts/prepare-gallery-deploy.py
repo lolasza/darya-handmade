@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-ORIGIN = 'https://darya-handmade.vercel.app'
+ORIGIN = 'https://www.daryahandmade.shop'
 
 
 class Dependencies(HTMLParser):

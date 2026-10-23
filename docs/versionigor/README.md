@@ -1,6 +1,6 @@
 # Darya Mucha · /versionigor
 
-Новая галерея изолирована в `/versionigor`. Рабочая ветка: `review/versionigor-blob`. Главная `index.html`, все её товары, встроенные фотографии и `assets/legacy` не изменены. В `main` изменения не внесены.
+Новая галерея изолирована в `/versionigor`. Целевой адрес: https://www.daryahandmade.shop/versionigor; canonical и Open Graph используют этот домен. Рабочая ветка: `review/versionigor-blob`. Главная `index.html`, все её товары, встроенные фотографии и `assets/legacy` не изменены. В `main` изменения не внесены.
 
 ## Что реализовано
 
