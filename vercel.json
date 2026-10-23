@@ -3,5 +3,38 @@
   "framework": null,
   "buildCommand": null,
   "installCommand": null,
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "functions": {
+    "api/versionigor/contact.js": { "maxDuration": 30 },
+    "api/versionigor/rates.js": { "maxDuration": 15 }
+  },
+  "rewrites": [
+    {
+      "source": "/versionigor/api/contact",
+      "destination": "/api/versionigor/contact"
+    },
+    {
+      "source": "/versionigor/api/rates",
+      "destination": "/api/versionigor/rates"
+    },
+    { "source": "/versionigor", "destination": "/versionigor/index.html" },
+    {
+      "source": "/versionigor/contact",
+      "destination": "/versionigor/index.html"
+    },
+    {
+      "source": "/versionigor/work/:slug",
+      "destination": "/api/versionigor/work?slug=:slug"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/versionigor(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, follow" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
 }
