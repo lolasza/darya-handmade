@@ -1,0 +1,98 @@
+[
+  {
+    "id": "k4",
+    "name": "Заяц и Они",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "k2",
+    "name": "Хранитель жемчужины",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "k3",
+    "name": "Три Дарумы",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "k1",
+    "name": "Счастливый утёнок",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "k5",
+    "name": "Тихое путешествие",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "k6",
+    "name": "Эбису и черепаха",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "k7",
+    "name": "Хранитель дома",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "k8",
+    "name": "Узел судьбы",
+    "original": 25000,
+    "new": 24900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "f1",
+    "name": "Курочка в платочке",
+    "original": 5000,
+    "new": 4900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "f2",
+    "name": "Козочка в оранжевом платке",
+    "original": 5000,
+    "new": 4900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "f3",
+    "name": "Цыплёнок-аристократ",
+    "original": 5000,
+    "new": 4900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  },
+  {
+    "id": "f4",
+    "name": "Куриная банда",
+    "original": 5000,
+    "new": 4900,
+    "currency": "RUB",
+    "reason": "Round thousand adjusted down by100; no crossed-out or discount presentation."
+  }
+]

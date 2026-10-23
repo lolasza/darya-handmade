@@ -1,0 +1,641 @@
+{
+  "version": 1,
+  "orderNote": {
+    "ru": "Редакционный порядок; даты создания не заданы.",
+    "en": "Editorial order; creation dates are not specified."
+  },
+  "series": [
+    {
+      "id": "japan",
+      "title": {
+        "ru": "Мифы Японии",
+        "en": "Myths of Japan"
+      }
+    },
+    {
+      "id": "monarchs",
+      "title": {
+        "ru": "Обыкновенные монархи",
+        "en": "Ordinary Monarchs"
+      }
+    },
+    {
+      "id": "quiet",
+      "title": {
+        "ru": "Тихие чудеса",
+        "en": "Quiet Wonders"
+      }
+    },
+    {
+      "id": "celebrations",
+      "title": {
+        "ru": "Маленькие торжества",
+        "en": "Small Celebrations"
+      }
+    }
+  ],
+  "works": [
+    {
+      "id": "k4",
+      "slug": "hare-and-oni",
+      "order": 0,
+      "category": "paintings",
+      "series": "japan",
+      "title": {
+        "ru": "Заяц и Они",
+        "en": "The Hare and the Oni"
+      },
+      "line": {
+        "ru": "Заяц встречает маску они у ворот тории, и знакомый мир на мгновение становится чуть более загадочным.",
+        "en": "A hare meets an oni mask by the torii gates, and the familiar world becomes a little more mysterious."
+      },
+      "story": {
+        "ru": "Заяц, маска они, волны и ворота тории собираются в одной сцене. Знакомое маленькое существо оказывается рядом с образом, который способен одновременно пугать и притягивать. Японские мотивы задают пространство этой необычной встречи.\n\nКартина допускает историю о любопытстве, которое осторожно подходит к неизвестному. Что здесь опасно, а что только кажется таким? Ответ остаётся у зрителя. Контраст мягкого героя и выразительной маски помогает представить мгновение, когда привычный мир не исчезает, но вдруг обнаруживает ещё одну, прежде незаметную сторону.",
+        "en": "A hare, an oni mask, waves and torii gates meet in a single scene. A small familiar creature finds itself beside an image that can seem both unsettling and fascinating. The Japanese motifs give this encounter its particular setting.\n\nThe picture can be read as a story about curiosity approaching the unknown. What is truly frightening, and what only appears so? That question stays with the viewer. A gentle character and a striking mask make room for more than one answer."
+      },
+      "keywords": {
+        "ru": ["встреча", "смелость", "тайна"],
+        "en": ["encounter", "courage", "mystery"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "Ø 20 см",
+        "en": "Ø 20 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "k2",
+      "slug": "pearl-guardian",
+      "order": 1,
+      "category": "paintings",
+      "series": "quiet",
+      "title": {
+        "ru": "Хранитель жемчужины",
+        "en": "Pearl Guardian"
+      },
+      "line": {
+        "ru": "Среди облаков лев бережёт маленькую жемчужину, будто всё большое существует ради чего-то очень хрупкого.",
+        "en": "Among the clouds, a lion guards a small pearl, as though strength exists to protect something delicate."
+      },
+      "story": {
+        "ru": "Лев-хранитель появляется среди облаков с жемчужиной, которая кажется небольшой рядом с его фигурой. Именно этот контраст предлагает задержаться: сила здесь обращена к чему-то хрупкому, а торжественный образ допускает тихое, почти домашнее прочтение.\n\nЖемчужина может стать в этой истории личной драгоценностью зрителя — воспоминанием, обещанием или маленькой вещью, которую важно сохранить. Не обязательно разгадывать сцену до конца. Иногда достаточно ощущения, что у дорогого нам есть внимательный хранитель, а у самого хранителя есть своя причина быть сильным.",
+        "en": "A guardian lion appears among clouds with a pearl that seems small beside its figure. That difference in scale invites a slower look: strength is directed towards something delicate, and a ceremonial character becomes unexpectedly intimate.\n\nIn a personal reading, the pearl might stand for a memory, a promise or an ordinary thing worth keeping safe. The scene does not need a final explanation. It can simply offer the feeling that something precious has found a patient guardian."
+      },
+      "keywords": {
+        "ru": ["защита", "облака", "драгоценность"],
+        "en": ["protection", "clouds", "treasure"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "Ø 20 см",
+        "en": "Ø 20 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "k3",
+      "slug": "three-darumas",
+      "order": 2,
+      "category": "paintings",
+      "series": "japan",
+      "title": {
+        "ru": "Три Дарумы",
+        "en": "Three Darumas"
+      },
+      "line": {
+        "ru": "Три дарумы собирают удачу, победу и здоровье в маленькую компанию, где каждому пожеланию находится место.",
+        "en": "Three daruma dolls bring fortune, victory and health together, giving each wish a place in a small company."
+      },
+      "story": {
+        "ru": "Три куклы-дарумы стоят рядом, но каждая приносит в эту небольшую компанию своё пожелание. На них обозначены удача, победа и здоровье. В круглом пространстве картины эти слова не спорят между собой, а становятся частями одного разговора.\n\nЗдесь можно увидеть не перечень целей, а дружеское напоминание о равновесии. Победе пригодится здоровье, удаче — намерение, а любому большому замыслу — способность идти дальше. Японский мотив сохраняет узнаваемый характер, но оставляет зрителю возможность услышать собственное, совсем повседневное пожелание.",
+        "en": "Three daruma dolls share the picture, each carrying a different wish: fortune, victory and health. Inside the circular composition, these ideas feel less like a list of goals and more like a conversation among companions.\n\nThe Japanese motif offers a way to think about balance. Success needs health, luck benefits from intention, and a long undertaking asks for the courage to continue. Each viewer can bring a private wish to this gathering without having to settle on a single meaning."
+      },
+      "keywords": {
+        "ru": ["удача", "намерение", "равновесие"],
+        "en": ["fortune", "intention", "balance"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "Ø 20 см",
+        "en": "Ø 20 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "k1",
+      "slug": "lucky-duckling",
+      "order": 3,
+      "category": "paintings",
+      "series": "celebrations",
+      "title": {
+        "ru": "Счастливый утёнок",
+        "en": "Lucky Duckling"
+      },
+      "line": {
+        "ru": "Маленький герой примеряет большую храбрость и превращает обычный день в собственный праздник.",
+        "en": "A little hero tries on a larger courage and makes an ordinary day a celebration."
+      },
+      "story": {
+        "ru": "Большой праздник иногда начинается с очень маленького героя. Утёнок примеряет костюм танцующего льва, и знакомый образ вдруг получает совсем другой голос. Китайские пагоды на заднем плане становятся декорациями его личного торжества.\n\nВ этой сцене можно увидеть ту особую храбрость, которая ещё не умеет быть серьёзной. Ей достаточно нарядиться, сделать первый шаг и поверить, что сегодняшнему дню позволено стать необычным. Работа оставляет место улыбке и напоминает: маленький масштаб героя не делает его историю менее значительной.",
+        "en": "A large celebration can begin with a very small hero. A duckling tries on a lion-dance costume while Chinese pagodas set the scene behind it. Familiar proportions give way to a playful kind of courage.\n\nOne way to read this picture is as a first step into something larger than ourselves. The costume does not hide the little character; it lends it a new voice. A gentle reminder that an ordinary day can make room for a private festival."
+      },
+      "keywords": {
+        "ru": ["храбрость", "праздник", "игра"],
+        "en": ["courage", "celebration", "play"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "Ø 20 см",
+        "en": "Ø 20 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "k5",
+      "slug": "quiet-journey",
+      "order": 4,
+      "category": "paintings",
+      "series": "quiet",
+      "title": {
+        "ru": "Тихое путешествие",
+        "en": "A Quiet Journey"
+      },
+      "line": {
+        "ru": "Лягушка с фонарём путешествует на карпе, доверяя дороге, которая не обязана быть похожей на все остальные.",
+        "en": "A frog with a lantern travels on a carp, trusting a path that need not resemble anybody else’s."
+      },
+      "story": {
+        "ru": "Лягушка устроилась на карпе и взяла с собой фонарь. Надпись на картине называет происходящее тихим путешествием. У этой дороги необычный транспорт и совсем другой ритм: здесь хочется смотреть не на прибытие, а на саму возможность двигаться вместе.\n\nСцену можно прочитать как небольшую историю о доверии. Света достаточно для следующего шага, а спутник уже рядом. Ни маршрут, ни конечная точка не требуют объяснения. Важнее пауза, в которой зритель получает разрешение представить собственную дорогу — спокойную, странную и ни на чью не похожую.",
+        "en": "A frog rides a carp and carries a lantern. The inscription names this scene a quiet journey. Its unusual form of transport suggests another rhythm, one that makes the passage itself more interesting than the arrival.\n\nThis can be a little story about trust. There is enough light for the next part of the way, and a companion is already close. Neither the route nor its destination needs to be explained. The viewer is free to imagine a journey of their own."
+      },
+      "keywords": {
+        "ru": ["путешествие", "доверие", "тишина"],
+        "en": ["journey", "trust", "quiet"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "Ø 20 см",
+        "en": "Ø 20 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "k6",
+      "slug": "ebisu-and-turtle",
+      "order": 5,
+      "category": "paintings",
+      "series": "japan",
+      "title": {
+        "ru": "Эбису и черепаха",
+        "en": "Ebisu and the Turtle"
+      },
+      "line": {
+        "ru": "Эбису плывёт среди волн на морской черепахе, соединяя удачу с неторопливым искусством держаться своего пути.",
+        "en": "Ebisu rides a sea turtle through the waves, bringing luck together with the patient art of keeping one’s course."
+      },
+      "story": {
+        "ru": "Эбису изображён с рыбой и удочкой верхом на морской черепахе. Вокруг движутся волны, а знакомый японский бог удачи оказывается участником путешествия, в котором необычное выглядит вполне естественно.\n\nОдно из возможных прочтений этой работы — разговор между удачей и терпением. Рыба уже есть, путь продолжается, а черепаха предлагает собственную скорость. Здесь не обязательно торопить события или искать единственную разгадку. Сцена оставляет место спокойной уверенности: иногда нужное направление важнее быстрого движения, а хороший спутник оказывается ценнее самой короткой дороги.",
+        "en": "Ebisu appears with a fish and fishing rod, riding a sea turtle among the waves. The Japanese god of luck becomes a traveller in a scene where an extraordinary arrangement feels entirely natural.\n\nOne possible reading is a conversation between fortune and patience. The fish is already there, the journey continues, and the turtle supplies its own pace. There is no need to hurry towards a single explanation. A good companion may matter more than the shortest possible route."
+      },
+      "keywords": {
+        "ru": ["удача", "море", "терпение"],
+        "en": ["fortune", "sea", "patience"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "Ø 20 см",
+        "en": "Ø 20 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "k7",
+      "slug": "guardian-of-home",
+      "order": 6,
+      "category": "paintings",
+      "series": "japan",
+      "title": {
+        "ru": "Хранитель дома",
+        "en": "Guardian of the Home"
+      },
+      "line": {
+        "ru": "Кот в кимоно бережёт домашний мир, где драконы и повседневная жизнь вполне могут договориться друг с другом.",
+        "en": "A cat in a kimono watches over a home where dragons and everyday life can learn to live together."
+      },
+      "story": {
+        "ru": "Кот одет в кимоно с драконами. Рядом с ним табличка с иероглифами 家内安全 — пожеланием мира и безопасности в доме. Торжественный образ получает совсем близкий масштаб: речь идёт о том месте, куда хочется возвращаться.\n\nВ таком хранителе можно увидеть не сурового стража, а характерного домашнего союзника. Его присутствие допускает небольшую иронию, но не отменяет серьёзности самого пожелания. Работа предлагает представить дом пространством, где привычное соседствует с мифом, а чувство защищённости складывается из очень личных вещей, жестов и встреч.",
+        "en": "A cat wears a dragon-pattern kimono beside a sign bearing 家内安全, a wish for peace and safety in the home. A ceremonial image turns towards something close and familiar: the place we want to return to.\n\nThis guardian can be read as a domestic ally rather than a stern sentry. There is room for a little humour without diminishing the wish itself. The work imagines a home where myth and daily life can keep each other company."
+      },
+      "keywords": {
+        "ru": ["дом", "защита", "характер"],
+        "en": ["home", "protection", "character"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "20 × 30 см",
+        "en": "20 × 30 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "k8",
+      "slug": "knot-of-fate",
+      "order": 7,
+      "category": "paintings",
+      "series": "quiet",
+      "title": {
+        "ru": "Узел судьбы",
+        "en": "A Knot of Fate"
+      },
+      "line": {
+        "ru": "Карп, красные ленты и знак связи собирают историю о встречах, которые незаметно меняют направление нашего пути.",
+        "en": "A carp, red ribbons and a sign of connection suggest the encounters that quietly change the course of a journey."
+      },
+      "story": {
+        "ru": "Карп несёт на голове череп; красные ленты заканчиваются кисточкой, а на красной печати виден иероглиф 縁 — судьба, связь. Эти детали не складываются в простую иллюстрацию, и именно поэтому хочется рассматривать их дольше.\n\nМожно увидеть здесь рассказ о встречах, которые соединяют разные стороны жизни. Ленты напоминают о связи, карп — о движении, а непривычный сосед на его голове меняет тон всей сцены. Такое прочтение остаётся открытым: у каждого зрителя найдётся собственный узел памяти, случайности или привязанности, который невозможно развязать одним объяснением.",
+        "en": "A carp carries a skull on its head. Red ribbons end in a tassel, and a red seal bears 縁, a character associated with fate and connection. These details resist a simple explanation and reward a longer look.\n\nOne reading is a story about encounters that link different parts of life. The ribbons suggest attachment, while the carp keeps moving. Each viewer may recognise a private knot of memory or chance that cannot be untied with a single answer."
+      },
+      "keywords": {
+        "ru": ["связь", "судьба", "движение"],
+        "en": ["connection", "fate", "movement"]
+      },
+      "price": 24900,
+      "originalPrice": 25000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "Ø 20 см",
+        "en": "Ø 20 cm"
+      },
+      "materials": {
+        "ru": "Акрил, холст",
+        "en": "Acrylic, canvas"
+      },
+      "care": {
+        "ru": "Беречь от прямого солнца и влаги, протирать сухой мягкой тканью.",
+        "en": "Keep away from direct sun and moisture. Wipe with a soft, dry cloth."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "f1",
+      "slug": "hen-in-headscarf",
+      "order": 8,
+      "category": "plaster",
+      "series": "monarchs",
+      "title": {
+        "ru": "Курочка в платочке",
+        "en": "Hen in a Headscarf"
+      },
+      "line": {
+        "ru": "Курочка в цветастом платочке занимает парадную рамку с таким достоинством, будто именно её здесь всегда и ждали.",
+        "en": "A hen in a floral headscarf occupies an ornate frame with the dignity of someone who has always belonged there."
+      },
+      "story": {
+        "ru": "Внутри гипсовой рамки с золотой патиной находится принт курочки в цветастом платочке. Объёмный декор и акриловая роспись придают обрамлению парадный характер, а героиня отвечает на эту торжественность совершенно обыденным, узнаваемым жестом.\n\nОтсюда может начаться небольшая история о достоинстве, которому не требуется особый титул. Достаточно занять своё место и остаться собой. Контраст персонажа и рамки делает встречу тёплой и чуть ироничной: музейная интонация внезапно оказывается подходящей для самой простой героини, если смотреть на неё внимательно и без спешки.",
+        "en": "A print of a hen in a floral headscarf sits inside a plaster frame with a gold patina. Relief decoration and acrylic painting give the frame a ceremonial presence; the familiar character answers it with a quieter kind of confidence.\n\nThis can be a small story about dignity without a title. The contrast is warm rather than grand: an ordinary heroine takes her place as though the frame had been waiting for her. A patient look is all the occasion requires."
+      },
+      "keywords": {
+        "ru": ["достоинство", "уют", "ирония"],
+        "en": ["dignity", "warmth", "wit"]
+      },
+      "price": 4900,
+      "originalPrice": 5000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "20 × 20 см",
+        "en": "20 × 20 cm"
+      },
+      "materials": {
+        "ru": "Гипс, акрил, принт",
+        "en": "Plaster, acrylic, print"
+      },
+      "care": {
+        "ru": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+        "en": "Fragile: avoid drops and moisture. Dust gently with a soft brush."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "f2",
+      "slug": "goat-in-orange-scarf",
+      "order": 9,
+      "category": "plaster",
+      "series": "monarchs",
+      "title": {
+        "ru": "Козочка в оранжевом платке",
+        "en": "Goat in an Orange Scarf"
+      },
+      "line": {
+        "ru": "Козочка в оранжевом платке легко обживает золото и бирюзу, превращая парадный портрет в знакомство с ярким характером.",
+        "en": "A goat in an orange scarf makes gold and turquoise feel at home, turning a formal portrait into a meeting with character."
+      },
+      "story": {
+        "ru": "У козочки оранжевый платок, а у гипсовой рамки — золото и бирюзовая патина. Внутри находится принт, снаружи объёмный декор расписан акрилом. Цвета словно предлагают друг другу разные роли: один притягивает взгляд, другие дают ему задержаться.\n\nЗа этим сочетанием можно увидеть характер, который не нуждается в разрешении быть заметным. Парадное обрамление оказывается не слишком серьёзным для такой героини. Напротив, оно помогает представить маленький портрет как полноценную встречу — с настроением, собственной интонацией и той мягкой иронией, которая делает знакомые вещи немного неожиданными.",
+        "en": "The goat wears an orange scarf, while the plaster frame combines gold and a turquoise patina. A print sits inside; the relief decoration outside is painted with acrylic. The colours seem to give one another different roles.\n\nA character emerges from that conversation, one that does not need permission to be noticed. The formal frame becomes an invitation to a small encounter, with a distinct mood and a gentle humour. Familiar things reveal an unexpectedly independent personality."
+      },
+      "keywords": {
+        "ru": ["характер", "цвет", "достоинство"],
+        "en": ["character", "colour", "dignity"]
+      },
+      "price": 4900,
+      "originalPrice": 5000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "20 × 20 см",
+        "en": "20 × 20 cm"
+      },
+      "materials": {
+        "ru": "Гипс, акрил, принт",
+        "en": "Plaster, acrylic, print"
+      },
+      "care": {
+        "ru": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+        "en": "Fragile: avoid drops and moisture. Dust gently with a soft brush."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "f3",
+      "slug": "aristocrat-chick",
+      "order": 10,
+      "category": "plaster",
+      "series": "monarchs",
+      "title": {
+        "ru": "Цыплёнок-аристократ",
+        "en": "Aristocrat Chick"
+      },
+      "line": {
+        "ru": "Цыплёнок в парике поднимает бокал, и большой свет на мгновение становится маленьким, смешным и очень живым.",
+        "en": "A chick in a wig raises a glass, making high society feel briefly small, funny and wonderfully alive."
+      },
+      "story": {
+        "ru": "Цыплёнок на принте носит парик и держит бокал вина. Малиновая гипсовая рамка с золотом и объёмным декором поддерживает эту небольшую театральную сцену. Акриловая роспись обрамления продолжает разговор о парадности, но не делает его слишком серьёзным.\n\nЗдесь можно увидеть героя, который примерил роль и неожиданно освоился в ней. Его маленький масштаб только усиливает комедию положения. Работа предлагает смотреть на привычные знаки статуса с тёплой иронией: иногда для целого представления достаточно одного персонажа, выразительного обрамления и зрителя, готового ответить улыбкой.",
+        "en": "The print shows a chick in a wig holding a glass of wine. A raspberry-red plaster frame, with gold and relief decoration painted in acrylic, gives this tiny performance a suitably formal setting.\n\nOne way to see the character is as an actor who has become unexpectedly comfortable in a borrowed role. Its small scale makes the scene more playful. The work treats familiar signs of status with gentle humour: one character and a willing viewer are enough for a whole performance."
+      },
+      "keywords": {
+        "ru": ["театр", "характер", "ирония"],
+        "en": ["theatre", "character", "wit"]
+      },
+      "price": 4900,
+      "originalPrice": 5000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "20 × 20 см",
+        "en": "20 × 20 cm"
+      },
+      "materials": {
+        "ru": "Гипс, акрил, принт",
+        "en": "Plaster, acrylic, print"
+      },
+      "care": {
+        "ru": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+        "en": "Fragile: avoid drops and moisture. Dust gently with a soft brush."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "f4",
+      "slug": "chicken-gang",
+      "order": 11,
+      "category": "plaster",
+      "series": "monarchs",
+      "title": {
+        "ru": "Куриная банда",
+        "en": "The Chicken Gang"
+      },
+      "line": {
+        "ru": "Три курицы в круглых очках смотрят на мир своей компанией, где важнее всего не звание, а чувство принадлежности.",
+        "en": "Three hens in round glasses face the world together, valuing the company they keep more than any title."
+      },
+      "story": {
+        "ru": "На принте три курицы в круглых очках. Изумрудно-зелёная гипсовая рамка с золотом, объёмным декором и акриловой росписью придаёт их компании вид почти официального собрания. Но достаточно посмотреть на героинь, чтобы торжественность сменилась улыбкой.\n\nВозможная история этой работы — о принадлежности к своим. Здесь не нужно выбирать главного персонажа: важна сама компания и общий взгляд на мир. Парадный формат остаётся, а иерархия отступает. Получается небольшой групповой портрет, в котором достоинство спокойно уживается с дружеской нелепостью и хорошо узнаваемым человеческим настроением.",
+        "en": "Three hens in round glasses share the print. The emerald-green plaster frame, with gold and acrylic-painted relief decoration, makes their company look almost like an official gathering. A closer look quickly softens that formality into a smile.\n\nThe scene can be read as a portrait of belonging. There is no need to appoint a central character: the group matters. Dignity sits comfortably beside friendly absurdity, and the familiar idea of a formal group portrait becomes an unexpectedly warm little encounter."
+      },
+      "keywords": {
+        "ru": ["компания", "дружба", "ирония"],
+        "en": ["company", "friendship", "wit"]
+      },
+      "price": 4900,
+      "originalPrice": 5000,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": true,
+      "year": null,
+      "size": {
+        "ru": "20 × 20 см",
+        "en": "20 × 20 cm"
+      },
+      "materials": {
+        "ru": "Гипс, акрил, принт",
+        "en": "Plaster, acrylic, print"
+      },
+      "care": {
+        "ru": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+        "en": "Fragile: avoid drops and moisture. Dust gently with a soft brush."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "s1",
+      "slug": "inseparable",
+      "order": 12,
+      "category": "gift-sets",
+      "series": "celebrations",
+      "title": {
+        "ru": "Набор «Неразлучные»",
+        "en": "Inseparable"
+      },
+      "line": {
+        "ru": "Два маленьких голубя оставляют между собой место для человека, которому хочется подарить половину общей истории.",
+        "en": "Two little doves leave room between them for someone you would like to share a story with."
+      },
+      "story": {
+        "ru": "В наборе два гипсовых голубя-неразлучника. Одного можно оставить себе, другого подарить тому, кто дорог. Красные ленты, золотые бубенчики и открытка продолжают эту простую идею общей истории; всё собрано в подарочной коробке.\n\nВ таком жесте легко увидеть не обещание чего-то большого, а спокойный знак присутствия. Два небольших предмета оказываются в разных местах и всё же остаются парой. История складывается не только из самих голубей, но и из выбора людей: кому достанется второй и какое знакомое чувство он будет напоминать.",
+        "en": "The set contains two plaster inseparable doves: keep one and give the other to someone dear to you. Red ribbons, golden bells and a card carry that idea into a gift box.\n\nThe gesture can feel less like a grand promise and more like a quiet sign of presence. Two small objects can live in different places and still remain a pair. Their story depends on the people who choose where each one will belong and what it will recall."
+      },
+      "keywords": {
+        "ru": ["близость", "подарок", "связь"],
+        "en": ["closeness", "gift", "connection"]
+      },
+      "price": 2500,
+      "originalPrice": 2500,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": false,
+      "year": null,
+      "size": {
+        "ru": null,
+        "en": null
+      },
+      "materials": {
+        "ru": "Гипс, акрил, ленты, бубенчик золотой 10 мм",
+        "en": "Plaster, acrylic, ribbons, 10 mm golden bell"
+      },
+      "care": {
+        "ru": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+        "en": "Fragile: avoid drops and moisture. Dust gently with a soft brush."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    },
+    {
+      "id": "s2",
+      "slug": "angels",
+      "order": 13,
+      "category": "gift-sets",
+      "series": "celebrations",
+      "title": {
+        "ru": "Набор «Ангелы»",
+        "en": "Angels"
+      },
+      "line": {
+        "ru": "Три ангела с красными сердцами превращают небольшой подарок в тихое напоминание о заботе, которую можно оставить рядом.",
+        "en": "Three angels with red hearts turn a small gift into a quiet reminder of care that can stay close."
+      },
+      "story": {
+        "ru": "Три гипсовых ангела держат красные сердца. Золотая роспись и красные ленты для подвешивания соединяют их в набор, упакованный в коробку с окошком. Маленькие фигуры предлагают не один большой акцент, а несколько близких знаков внимания.\n\nМожно представить, как они находят разные места в доме или становятся частью общего подарка. Эта история не требует определённого повода. Её смысл может быть совсем простым: напомнить о заботе, отметить встречу или оставить рядом вещь, которая возвращает к тёплому чувству. Остальное каждый получатель добавит сам.",
+        "en": "Three plaster angels hold red hearts. Gold painting and red hanging ribbons bring them together in a gift box with a window. Rather than making a single large statement, they offer several small signs of attention.\n\nThey might find different places around a home or stay together as a gift. No particular occasion is required for this reading. They can mark a meeting, recall someone’s care or simply keep a warm feeling close. The recipient can add the rest of the story."
+      },
+      "keywords": {
+        "ru": ["забота", "праздник", "тепло"],
+        "en": ["care", "celebration", "warmth"]
+      },
+      "price": 3500,
+      "originalPrice": 3500,
+      "currency": "RUB",
+      "status": "stock",
+      "unique": false,
+      "year": null,
+      "size": {
+        "ru": null,
+        "en": null
+      },
+      "materials": {
+        "ru": "Гипс, акрил, ленты",
+        "en": "Plaster, acrylic, ribbons"
+      },
+      "care": {
+        "ru": "Хрупкое изделие: избегать падений и влаги, пыль убирать мягкой кистью.",
+        "en": "Fragile: avoid drops and moisture. Dust gently with a soft brush."
+      },
+      "imagePosition": "center",
+      "imageFit": "contain"
+    }
+  ]
+}
